@@ -55,10 +55,6 @@ def take_input():
 
     for i in range(len(main)):
         points.append(main[i][1])
-
-    # for i in range(credit):
-    #     for j in range(points):
-    #         print("\t", i, "\t",j)
     
     tot_credits = 0
 
@@ -127,10 +123,6 @@ for i in range(len(sems)):
     semesters['sems'].append(sems[i])
     semesters['credits'].append(credits[i])
     semesters['sgpa_s'].append(sgpa_s[i])
-
-# print("\t", "Semester", "\t", "Credits", "\t", "SGPA")
-# for i in range(num):
-#     print("\n", "\t  ", semesters.get('sems')[i], "\t\t  ", semesters.get('credits')[i], "\t\t", semesters.get('sgpa_s')[i])
 
 print("\t", "_____________________________________\n")
 print("\t", "Semester", "\t", "Credits", "\t", "SGPA")
